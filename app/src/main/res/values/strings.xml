@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">registration</string>
+    <array name="section">
+        <item>Arnab</item>
+        <item>Supriyo</item>
+        <item>Priyadarshan</item>
+        <item>Bose</item>
+    </array>
+</resources>

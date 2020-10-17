@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/trackStudentName"
+        android:textAlignment="center"/>
+
+   <SeekBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:max="5"
+    android:id="@+id/seekbartrack"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name: "
+        android:id="@+id/StudentRemarktrack"/>
+
+      <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addStuedenttrack"
+        android:text="Add Student"/>
+
+
+    <TextView
+        android:id="@+id/remarktrack"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="Remarks"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ListView
+        android:id="@+id/listViewtrack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
